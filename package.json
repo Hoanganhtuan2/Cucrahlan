@@ -1,17 +1,16 @@
-// === package.json ===
 {
-"name": "simple-telegram-bot",
-"version": "1.0.0",
-"description": "Bot Telegram đơn giản chạy trên Render với webhook",
-"main": "index.js",
-"scripts": {
-"start": "node index.js"
-},
-"engines": {
-"node": ">=18"
-},
-"dependencies": {
-"express": "^4.19.2",
-"node-telegram-bot-api": "^0.66.0"
-}
+  "name": "simple-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram đơn giản chạy trên Render với webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
 }
